@@ -1,0 +1,39 @@
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+  Skipping creating a lockfile at C:\Users\admin\OneDrive\Desktop\website naila\.next\lock because we're using WASM bindings
+▲ Next.js 16.2.1 (webpack)
+
+  Creating an optimized production build ...
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+✓ Compiled successfully in 6.7s
+  Running TypeScript ...
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+  Finished TypeScript in 6.1s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/8) ...
+⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\admin\OneDrive\Desktop\website naila\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+  Generating static pages using 7 workers (2/8) 
+  Generating static pages using 7 workers (4/8) 
+  Generating static pages using 7 workers (6/8) 
+✓ Generating static pages using 7 workers (8/8) in 2.1s
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /contact
+├ ○ /export
+└ ○ /products
+
+
+○  (Static)  prerendered as static content
+

@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2a388f; /* Brand Blue */
+  --color-secondary: #24a89b; /* Brand Teal */
+  --color-accent: #ce962a; /* Brand Gold */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-poppins);
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  @media (width >= 1280px) {
+    max-width: 1280px;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1e293b; /* slate-800 for softer text */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0f172a; /* slate-900 */
+    --foreground: #f8fafc; /* slate-50 */
+  }
+}
+
+@layer base {
+  body {
+    @apply text-slate-950 selection:bg-secondary selection:text-white;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  section {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 500px;
+  }
+
+  /* Above the fold content should not use content-visibility to avoid delay */
+  section:first-of-type {
+    content-visibility: visible;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hide Next.js Dev Indicator & Overlays */
+nextjs-portal,
+[data-nextjs-dev-indicator], 
+#nextjs-dev-overlay,
+[data-nextjs-toast-wrapper] {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

@@ -1,0 +1,1 @@
+import rembg; from PIL import Image; input_path = 'public/logo.jpg'; output_path = 'public/logo-nobg.png'; input_img = Image.open(input_path); output_img = rembg.remove(input_img); output_img.save(output_path);
